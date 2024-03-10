@@ -13,14 +13,14 @@ First install https://github.com/fullpipe/xkbswitch
 
 ```lua
   {
-    dir = 'github.com/fullpipe/xkbswitch.nvim',
+    'fullpipe/xkbswitch.nvim',
     opts = {},
   },
 ```
 
 ```lua
   {
-    dir = 'github.com/fullpipe/xkbswitch.nvim',
+    'fullpipe/xkbswitch.nvim',
     opts = {
       nlang = "com.apple.keylayout.ABC", -- keyboard layout for "normal" modes
     },
